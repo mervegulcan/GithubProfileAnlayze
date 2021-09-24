@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Github Profile Analyze</title>   
+  </head>
+  <body>
+    
+    <div class="header">
+      <input
+        type="text"
+        value=""        
+        placeholder="Type Github Username Here" 
+        class="inputUserName"
+      />
+      <button>ANALYZE</button>
+    </div>
+    <main>
+      <div id="result">Result</div>
+      <div class="" id="result-content">
+        <div id="user-info">
+          <img
+            src="https://via.placeholder.com/63"
+            alt="github profile photo"
+            id="photo" style="height: 150px;width: 150px;"/>
+
+          <span class="fullName">
+            <div id="name">Firstname Lastname</div>
+            <div id="username">@username</div>
+          </span>
+          <span id="repo-info">
+            <p><strong></strong>repo(s)</p>
+            <p><strong></strong>Code</p>
+          </span>
+        </div>
+        <hr />
+        <span id="language"> </span>
+      </div>
+    </main>
+    <script src="./app.js"></script>
+  </body>
+</html>

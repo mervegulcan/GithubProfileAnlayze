@@ -1,0 +1,97 @@
+
+.header{
+    background: black;   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 25px;
+
+}
+.header .inputUserName{
+    margin: 50px;
+    height: 50px;
+    font-size: 20px;
+    width: 50%;
+}
+.header button{
+    margin: 50px;
+    height: 50px;
+    width: 20%;
+    font-size: 16px;
+}
+main{
+    position: absolute;
+  width:70%;
+  height: 60%;
+  left: 200px;
+  top: 250px;
+  padding: 50px;
+  background-color: #fff;
+  z-index: 10;
+  border:2px solid #000000;
+  box-sizing: border-box;
+  font-size: 18px;
+    /* margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; */
+}
+#result{
+
+    position: absolute;
+    top: -10px;
+    left: 20px;
+    height: 20px;
+    width: 60px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    text-align: center;
+  
+}
+.userProfile{
+    display: flex;
+    justify-content: left;
+}
+#user-info{
+    margin-bottom: 5px;
+}
+.fullName{
+    display: inline-block;
+    position: absolute;
+    margin-left: 10px;
+}
+
+#name{
+    margin:10px;
+}
+#username{
+    margin:10px;
+}
+#repo-info{
+    margin-right: 26px;
+    text-align:right;
+    float:right;
+    /* display: flex;
+    justify-content: right; */
+    
+}
+#repo-info p{
+    margin-bottom: 10px;
+}
+#language{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px 20px 20px;
+}
+.error-handler{
+    position: absolute;
+    top:50%;
+    font-size:50px;
+    color:tomato;
+}
+.hidden-while-error{
+    display: none;
+    visibility: hidden;
+}
